@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+.main-container {
+    position: absolute;
+    left: 165px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    padding: 10px;
+    overflow-y: auto;
+    -webkit-transition: left .3s ease-in-out;
+    transition: left .3s ease-in-out;
+    background: #f5f3f3;
+}
+
+/* 折叠菜单栏改变内容区域的宽度 */
+.main-collapse {
+    left: 65px;
+}
+
+.content {
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.crumbs {
+    margin: 10px 0;
+}
+
+.el-table th {
+    background-color: #f5f7fa !important;
+}
+
+.pagination {
+    margin: 20px 0;
+    text-align: right;
+}
+
+.plugins-tips {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.el-button+.el-tooltip {
+    margin-left: 10px;
+}
+
+.mgb20 {
+    margin-bottom: 20px;
+}
+
+.move-enter-active,
+.move-leave-active {
+    transition: opacity .1s ease;
+}
+
+.move-enter-from,
+.move-leave-to {
+    opacity: 0;
+}
+
+/*BaseForm*/
+
+.form-box {
+    width: 600px;
+}
+
+.form-box .line {
+    text-align: center;
+}
+
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+    margin-top: -7px;
+}
+
+.el-time-spinner__wrapper .el-scrollbar__wrap:not(.el-scrollbar__wrap--hidden-default) {
+    padding-bottom: 0;
+}
+
+
+[class*=" el-icon-"], [class^=el-icon-] {
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ellipsis-text-three {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.el-sub-menu [class^=el-icon-] {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 24px;
+    text-align: center;
+    font-size: 18px;
+}
+
+[hidden]{
+    display: none !important;
+}
+
+.export-excel-btn {
+    background-color: #a6eded;
+    border: 1px solid #cbe8e8;
+    border-radius: 5px;
+    height: 32px;
+    font-weight: 600;
+    padding: 5px;
+    margin: 0 10px;
+}
